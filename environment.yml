@@ -1,0 +1,28 @@
+name: orb3
+channels:
+  - conda-forge
+  - astropy
+  - defaults
+dependencies:
+  - astropy
+  - astroquery
+  - bottleneck
+  - cython
+  - dill
+  - h5py
+  - jupyterlab
+  - matplotlib
+  - numpy
+  - pandas
+  - photutils
+  - pyregion
+  - pytables
+  - python=3.7
+  - scipy
+  - reproject
+  - pip:
+    - gvar==9.2
+    - lsqfit==11.2
+    - scikit-image
+    - fpdf
+
